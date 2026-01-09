@@ -1,0 +1,235 @@
+
+THESIS PLANNING DOCUMENT
+SRPH-MIS (San Roque Philippine Hospital - Management Information System)
+================================================================================
+
+Proposed Thesis Title:
+_________________________________________________________________
+Development and Implementation of a Web-Based Management Information System
+for IT Infrastructure and Asset Management in Healthcare Organizations:
+A Case Study of San Roque Philippine Hospital
+_________________________________________________________________
+
+
+Area of Investigation/Description:
+_________________________________________________________________
+
+This study focuses on the development and implementation of SRPH-MIS, an 
+enterprise-grade web-based platform designed for comprehensive IT infrastructure 
+and asset management in healthcare settings. The system encompasses:
+
+1. ASSET & INVENTORY MANAGEMENT
+   - Real-time tracking of computers, servers, and major equipment
+   - Component inventory (RAM, CPU, hard drives, peripherals)
+   - Accessories and consumables management
+   - IT equipment lifecycle tracking with checkout/checkin workflows
+   - Monitor inventory and license management
+
+2. CLOUD & VIRTUALIZATION MONITORING
+   - Virtual Machine (VM) inventory and monitoring
+   - Multi-cloud platform support (AWS, Azure, GCP)
+   - IAM (Identity and Access Management) account tracking
+   - Zabbix integration for real-time server monitoring
+   - Network discovery and security scanning capabilities
+
+3. SECURITY & COMPLIANCE
+   - BitLocker key management for data encryption
+   - Multi-Factor Authentication (MFA) support
+   - Role-based access control (RBAC)
+   - PII data encryption with AES-256-GCM
+   - Comprehensive audit trails and activity logging
+
+4. INTEGRATION & AUTOMATION
+   - JIRA integration for ticket management
+   - Automated email notifications
+   - Approval workflow monitoring
+   - CSV bulk import/export capabilities
+   - Real-time WebSocket updates
+
+5. ADMINISTRATION & REPORTING
+   - Advanced reporting with data visualization
+   - Database management (backup, restore, optimization)
+   - User permission management
+   - System logs and monitoring
+   - Customizable dashboard with draggable widgets
+_________________________________________________________________
+
+
+Reason for Choice:
+_________________________________________________________________
+
+1. PRACTICAL NECESSITY
+   Healthcare organizations require robust IT infrastructure management to
+   ensure uninterrupted patient care services. Traditional manual tracking
+   methods are inefficient and error-prone, leading to asset loss, security
+   vulnerabilities, and compliance issues.
+
+2. TECHNOLOGICAL ADVANCEMENT
+   Modern web technologies enable the creation of comprehensive, user-friendly
+   systems that can handle complex asset tracking, real-time monitoring, and
+   multi-user collaboration - essential features lacking in existing solutions.
+
+3. SECURITY CONCERNS
+   With increasing cyber threats in healthcare, there's a critical need for
+   systems that can manage encryption keys, monitor access controls, and
+   maintain detailed audit trails for compliance with data protection regulations.
+
+4. OPERATIONAL EFFICIENCY
+   The system addresses multiple pain points: asset tracking, license management,
+   VM monitoring, approval workflows, and security compliance - consolidating
+   these into a single integrated platform improves operational efficiency.
+
+5. SCALABILITY & COST-EFFECTIVENESS
+   A web-based solution eliminates the need for individual desktop installations,
+   reduces maintenance overhead, and can scale to accommodate organizational
+   growth without significant infrastructure changes.
+
+6. RESEARCH CONTRIBUTION
+   Limited research exists on integrated IT asset management systems specifically
+   designed for healthcare environments, making this study valuable for both
+   academic and practical applications.
+_________________________________________________________________
+
+
+Importance of the Study:
+_________________________________________________________________
+
+1. HEALTHCARE SERVICE CONTINUITY
+   - Ensures critical IT infrastructure reliability for patient care
+   - Minimizes downtime through proactive monitoring and maintenance
+   - Tracks medical equipment and IT assets essential for hospital operations
+
+2. DATA SECURITY & COMPLIANCE
+   - Implements encryption and secure key management for patient data protection
+   - Maintains compliance with healthcare data regulations (HIPAA, local laws)
+   - Provides comprehensive audit trails for security investigations
+
+3. FINANCIAL MANAGEMENT
+   - Reduces asset loss and theft through systematic tracking
+   - Optimizes IT budget allocation with detailed asset lifecycle data
+   - Prevents unnecessary purchases through accurate inventory visibility
+
+4. OPERATIONAL EFFICIENCY
+   - Automates manual processes, reducing administrative workload
+   - Streamlines approval workflows and asset allocation
+   - Enables data-driven decision making through comprehensive reporting
+
+5. TECHNICAL INNOVATION
+   - Demonstrates practical application of modern web technologies in healthcare
+   - Showcases integration of multiple systems (JIRA, Zabbix, cloud platforms)
+   - Provides a reference architecture for similar healthcare IT systems
+
+6. KNOWLEDGE CONTRIBUTION
+   - Adds to the body of knowledge on healthcare IT management systems
+   - Provides insights into real-world implementation challenges and solutions
+   - Offers a framework for future research in healthcare information systems
+
+7. RISK MITIGATION
+   - Identifies and tracks security vulnerabilities through monitoring
+   - Manages license compliance to avoid legal and financial penalties
+   - Maintains equipment warranty information for timely maintenance
+_________________________________________________________________
+
+
+Target User / Beneficiaries:
+_________________________________________________________________
+
+PRIMARY USERS:
+1. IT ADMINISTRATORS
+   - System configuration and management
+   - User permission and access control
+   - Database administration and backups
+   - Security policy enforcement
+
+2. IT STAFF & TECHNICIANS
+   - Asset tracking and inventory management
+   - Equipment checkout/checkin operations
+   - Troubleshooting and maintenance scheduling
+   - License key management
+
+3. DEPARTMENT MANAGERS
+   - Resource allocation and monitoring
+   - Budget planning and reporting
+   - Equipment request and approval workflows
+   - Departmental asset oversight
+
+4. HOSPITAL EXECUTIVES
+   - Strategic planning with comprehensive reports
+   - Financial analysis and cost optimization
+   - Compliance monitoring and risk assessment
+   - Performance metrics and KPI tracking
+
+SECONDARY BENEFICIARIES:
+5. HEALTHCARE STAFF
+   - Improved access to functional IT equipment
+   - Reduced downtime for critical systems
+   - Faster equipment allocation and support
+
+6. PATIENTS
+   - Better healthcare service delivery through reliable IT infrastructure
+   - Enhanced data security and privacy protection
+   - Improved hospital operational efficiency
+
+7. IT VENDORS & SUPPLIERS
+   - Streamlined procurement processes
+   - Clear warranty and maintenance tracking
+   - Automated notification for contract renewals
+
+8. COMPLIANCE AUDITORS
+   - Easy access to audit trails
+   - Comprehensive security and access logs
+   - Automated compliance reporting
+
+9. ACADEMIC INSTITUTIONS
+   - Case study for healthcare IT management
+   - Reference implementation for similar systems
+   - Research data for IT governance studies
+
+10. OTHER HEALTHCARE ORGANIZATIONS
+    - Replicable model for IT asset management
+    - Best practices in healthcare IT security
+    - Framework for digital transformation initiatives
+_________________________________________________________________
+
+
+Additional Notes:
+_________________________________________________________________
+
+TECHNICAL SPECIFICATIONS:
+- Technology Stack: Node.js, Express, PostgreSQL, React, TypeScript
+- Architecture: Client-server with RESTful API
+- Security: AES-256-GCM encryption, MFA, session management
+- Deployment: Web-based (accessible via browser, no installation required)
+- Integration: JIRA, Zabbix, multi-cloud platforms (AWS, Azure, GCP)
+
+KEY FEATURES IMPLEMENTED:
+✓ Real-time monitoring with WebSocket
+✓ Role-based access control (Admin, Manager, User)
+✓ Automated email notifications
+✓ CSV import/export for bulk operations
+✓ Advanced reporting with data visualization
+✓ Multi-tenancy support
+✓ Comprehensive audit logging
+✓ Data encryption at rest and in transit
+
+RESEARCH METHODOLOGY:
+- System Development Life Cycle (SDLC) approach
+- Agile development methodology
+- User acceptance testing in live environment
+- Performance and security testing
+- Qualitative and quantitative data analysis
+
+EXPECTED OUTCOMES:
+- Reduced asset loss by 90%+
+- Improved operational efficiency by 60%+
+- Enhanced security compliance
+- Cost savings through optimized resource allocation
+- Improved user satisfaction and productivity
+
+FUTURE ENHANCEMENTS:
+- Mobile application development
+- AI-powered predictive maintenance
+- Advanced analytics and machine learning
+- Integration with more third-party systems
+- Blockchain for immutable audit trails
+_________________________________________________________________
